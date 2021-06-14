@@ -1,0 +1,12 @@
+<app-nav-bar></app-nav-bar>
+<div class="wrapper"*ngFor="let user of users">
+    <div class="contact card" *ngIf="user.login === user_id">
+        <img class="rounded-circle" src="{{user.avatar_url}}" >
+        <div>
+            <h5>{{user.login}}</h5>
+            <p>{{user.location}}</p>
+        </div>
+
+    </div>
+    
+</div>

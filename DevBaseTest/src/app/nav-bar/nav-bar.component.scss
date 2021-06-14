@@ -1,0 +1,45 @@
+nav {
+    display: block;
+    text-align: center;
+    button{
+        background-color: #343a40 !important;
+        border: none;
+        float: left;
+    }
+    .contact{
+        margin-right: 6rem;
+    }
+}
+
+@media(max-width:480px){
+    nav {
+        display: block;
+        text-align: center;
+        button{
+            background-color: #343a40 !important;
+            border: none;
+            float: left;
+            font-size: 1rem;
+            margin-top: 0.2rem;
+        }
+        .contact{
+            margin-right: 6rem;
+        }
+    }
+}
+
+
+@media(max-width:768px){
+    nav {
+        display: block;
+        text-align: center;
+        button{
+            background-color: #343a40 !important;
+            border: none;
+            float: left;
+        }
+        .contact{
+            margin-right: 6rem;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.col {
+    padding-left: 0.3rem;
+    padding-right: 0;
+    button{
+        min-width: 99%;
+    }
+}
+
+@media(max-width:480px){
+   
+    
+        .flexbox{
+          display: flex;
+          flex-wrap: wrap;
+          width: 18rem;
+          .col{
+              margin-bottom: 1rem;
+              margin-right: 0.3rem;
+          }
+      
+        }
+    
+    
+}
+
+@media(max-width:768px){
+   
+    
+    .col {
+        padding-left: 0.3rem;
+        padding-right: 0;
+        button{
+            min-width: 99%;
+        }
+    }
+ 
+}

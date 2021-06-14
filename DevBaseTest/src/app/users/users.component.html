@@ -1,0 +1,14 @@
+<section class="section">
+    <div>
+      <div class="d-flex justify-content-start bg-light mb-3 flexbox">
+        <!-- loop over our users and give them each a card -->
+        <div class="col" *ngFor="let user of users">
+          <button [routerLink]="['/contact', user.login]" class="btn btn-primary">
+            <div class="w-auto">
+              <a >{{ user.login }}</a>
+            </div>      
+          </button>      
+        </div>
+      </div>
+    </div>
+</section>

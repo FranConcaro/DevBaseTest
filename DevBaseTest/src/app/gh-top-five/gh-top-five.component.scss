@@ -1,0 +1,43 @@
+section{
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 50rem;
+    p{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 480px){
+    section{
+        margin-top: 2rem;
+        display: inherit;
+        h3{
+            width: 25rem;
+            display: flex;
+            flex-direction: row;
+        }
+        p{
+            width: 25rem;
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+}
+
+@media(max-width: 768px){
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        h3{width: 25rem;
+            display: flex;
+            flex-direction: row;
+        }
+        p{
+            width: 25rem;
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+}
